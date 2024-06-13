@@ -1,0 +1,224 @@
+*{
+margin: 0;
+
+}
+
+html{
+    background: rgb(0, 0, 0);
+}
+
+
+h1{
+    color: rgb(0, 0, 0);  
+}
+.navbar{
+    height: 110px;
+    width: 100%;
+    background-image:linear-gradient( 
+                to top, #00bfff00, #000000b2);
+               
+    display: flex;
+    align-items: center;
+}
+.logo-bar{
+    margin-left: 60PX;
+    margin-top: -10PX;
+    height: 150px;
+    width: 180px;
+}
+.logo{
+    background-image: url(megalogo.png) ;
+    height: 170px;
+    width: 200px;
+    background-size: cover;
+}
+.mainbody{
+    
+    
+    display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(300px,1fr));
+    background-color: aqua;
+    
+
+}
+.shows{
+    background-color: rgb(0, 0, 0);
+   height: 600px;
+    width:1180px;
+    display: flex;
+    
+   align-items: center;
+    position: relative;
+    margin:auto ;
+    border: 6px solid transparent;
+    transition: 0.7s;
+}
+.shows:hover{
+    height:600px;
+    width:1200px;
+    border:6px solid#ff0000b2;
+    
+}
+
+.watch-ppv{
+    background-color: #ff0000b2;
+    color: white;
+    border: none;
+    height: 60px;
+    width: 150px;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.3s;
+     position: absolute;
+    bottom: 0;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    font-weight: bold;
+}
+.watch-ppv:hover{
+    background-color: aliceblue;
+    color: black;
+    font-weight: bolder;
+}
+.promos{
+    background-color: #ff0000b2;
+    color: white;
+    border: none;
+    height: 60px;
+    width: 190px;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.3s;
+     position: absolute;
+    bottom: 0;
+    margin-bottom: 2%;
+    margin-left: 17%;
+
+}
+.promos:hover{
+    background-color: aliceblue;
+    color: black;
+    font-weight: bolder;
+}
+.gradient{
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient( 
+        to top, #0000008b, #00000000);
+    transition: 1.0s;
+}
+.gradient:hover{
+    background-image:linear-gradient( 
+                to top, #000000b2, #00000000);
+               
+}
+.main-img{
+    background-image: url(wilder-fury-SHO.png) ;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    
+}
+.info-sec{
+    height: 100px;
+    width:450px;
+    color:white;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-right: 2%;
+}
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.showname
+{
+    height: 100px;
+    width: 150px;
+    background-image: url(Untitled110_20240601203257.png);
+    background-size: cover;
+    opacity: 60%;
+        margin-top: 2%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        margin-right: 2%;
+    
+}
+
+.show2
+{
+    background-color: rgb(255, 255, 255);
+    height:500px;
+    width:750px;
+   
+    position: relative;   
+}
+.show3
+{
+   
+    background-color: rgb(255, 255, 255);
+    
+    height:500px;
+    width:750px;
+   
+    position: relative;   
+}
+.bgimg3
+{ background-image: url(DSC_0016.JPG);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.bgimg2
+{ background-image: url(DSC_0254.JPG);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.upcoming
+{
+ width: 100%;
+ height: 100px;
+ color: aliceblue;
+ margin-top: 100px;
+ margin-left: 80px;
+}
+.pico{
+font-family: Arial, Helvetica, sans-serif;
+font-weight:normal;
+font-size: 35px;
+
+}
+.hows{
+    background-color: rgb(0, 0, 0);
+    height: 400px;
+    width:100%;
+    display: flex;
+    justify-content:space-between;
+
+}
+.box {
+    
+    border:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    transition: 0.3s;
+    display: flex;
+    flex: 1 1 10;
+}
+.box:hover{
+    height: 420px;
+    width: 300px;
+    border:5px solid#ff0000b2;
+}
